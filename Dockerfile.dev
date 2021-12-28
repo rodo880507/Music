@@ -1,0 +1,19 @@
+FROM node
+
+WORKDIR '/usr/music'
+COPY package.json .
+RUN npm install
+RUN npm install -g @vue/cli
+COPY . .
+
+CMD ["vue", "ui"]
+USER node
+
+##docker build -f Dockerfile.dev .
+##docker run -p 8080:8080 -v $(pwd):/usr/trillo <image_id>
+
+##utilizando docker-compose
+##docker-compose up
+##docker-compose up -d
+##docker-compose up --build
+##docker-compose down

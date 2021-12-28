@@ -1,0 +1,13 @@
+{
+  "home": {
+    "listen": "Listen to Great Music!",
+    "text": "Listen to music in our great web app. Enjoy your visit and relax your mind with the music of your choice. Thanks you for your prefert."
+  },
+  "register": {
+    "TOS": "Terms of Service",
+    "accept": "I accept Music's {0}"
+  },
+  "song": {
+    "comment_count": "No comments | 1 Comments | {count} Comments"
+  }
+}

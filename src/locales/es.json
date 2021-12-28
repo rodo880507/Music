@@ -1,0 +1,13 @@
+{
+  "home": {
+    "listen": "Escucha Música a lo Grande!",
+    "text": "Escucha música en nuestra gran aplicación web. Disfruta tu visita y relaja tu mente con la música de tu elección. Gracias por tu preferencia."
+  },
+  "register": {
+    "TOS": "Términos del Servicio de Música",
+    "accept": "Yo acepto los {0}"
+  },
+  "song": {
+    "comment_count": "No hay comentarios | 1 Comentario | {count} Comentarios"
+  }
+}

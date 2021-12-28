@@ -1,0 +1,16 @@
+version: "3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8000:8000"
+    volumes:
+      - /usr/music/node_modules
+      - .:/usr/music
+##Utilizando docker-compose
+##docker-compose up
+##docker-compose up -d
+##docker-compose up --build
+##docker-compose down
